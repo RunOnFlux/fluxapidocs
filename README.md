@@ -1,6 +1,4 @@
 # Flux Stats OpenAPI Documentation
-[![Build Status](https://travis-ci.com/runonflux/fluxdocs.svg?branch=master)](https://travis-ci.com/runonflux/fluxstats)
-
 [Flux](https://github.com/runonflux/flux/)
 
 ## Links

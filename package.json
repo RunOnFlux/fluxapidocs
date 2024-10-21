@@ -1,7 +1,7 @@
 {
   "name": "fluxstatsdocs",
-  "version": "1.0.0",
-  "author": "Flux Foundation",
+  "version": "2.0.0",
+  "author": "InFlux Technologies Limited",
   "license": "GNU AGPLv3",
   "repository": {
     "type": "git",
@@ -18,12 +18,11 @@
     }
   ],
   "scripts": {
-    "start": "swagger-repo serve",
-    "build": "swagger-repo build -o web_deploy",
-    "test": "swagger-repo validate",
-    "gh-pages": "swagger-repo gh-pages"
+    "start": "redocly preview-docs",
+    "build": "redocly bundle -o dist/bundle.yaml",
+    "test": "redocly lint"
   },
   "dependencies": {
-    "swagger-repo": "^2.0.0-rc.15"
+    "@redocly/cli": "^1.25.7"
   }
 }
